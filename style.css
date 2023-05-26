@@ -1,0 +1,145 @@
+body{
+    background-image:url("img/background.jpg");
+}
+img{
+ 
+    margin-left: 9%;
+    margin-top: 1%;
+}
+.upbalt{
+     background-color: rgb(215, 183, 3);
+    margin-top: -1%;
+}
+.nav ul{
+    list-style-type: none;    
+    display: inline;
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    margin: 0px;
+    align-items: center;
+    
+}
+.nav{
+ display: flex;
+ display: inline-table;
+ flex-wrap: wrap;
+ position: relative;
+ margin-left: 2%;
+}
+
+
+.nav ul li{
+    white-space: nowrap;
+    padding: 10px 3px 19px 39px;
+}
+li{
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+#c{
+    font-size: 144%;
+    text-decoration: none;
+    color: #3d332b;
+    
+    
+}
+#c :hover{
+    color: yellow;
+}
+#b{
+    font-size: 144%;
+    text-decoration: none;
+    background-color:  rgb(215, 183, 3);
+    border: none;
+    color:#3d332b;
+}
+
+#b :hover{
+    color: brown;
+}
+.hading{
+    
+
+    text-align: center;
+    color: rgb(215, 183, 3);
+    margin-top: 3%;
+    padding: 5%;
+    width: 34%;
+    padding-left: 5%;
+    margin-left: 31%;
+    border: 14px solid rgb(175 162 88);
+    border-radius: 1%;
+    transition: all ease-in-out 0.3s;
+    
+    
+   
+}
+.hading h2{
+    font-family: "Trirong", serif;    
+}
+.hading h1{
+    font-family: "Audiowide", sans-serif;
+}
+.option{
+    display:flex;
+    transition: all ease-in-out 0.1s;
+ 
+
+}
+.option h3{
+    width: 300px;
+    border: 2px solid rgb(187, 200, 187);
+    padding: 60px;
+    margin: 45px;
+    margin-top: 8%;
+    padding-right: 2%;
+    
+}
+
+.option h3 a{
+    text-decoration: none;
+    color: aliceblue;
+}
+#about{
+    width: 2%;
+    background-color: aliceblue;
+}
+
+#about h1{
+    text-align: center;
+    font-size: 100px;
+    text-underline-offset:initial;
+    color: black;
+    padding-top: 5%;
+}
+
+#about p{
+    text-align: center;
+    font-size: 40px;
+    background-color: rgb(255, 255, 146);
+}
+
+.left{
+    width: 2%;
+}
+
+
+
+.uuu{
+    align-items: center;
+    justify-content: center;
+}
+
+.uuu ul li{
+    padding: 10px 3px 19px 39px;
+}
+
+
+
+.about{
+    background-color: aliceblue;
+    font-size: 20px;
+    text-align: center;
+}
